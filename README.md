@@ -1,0 +1,20 @@
+#lista de palvras
+palavras = ("goleiro,juiz,gol")
+
+# calculando o total de letras da palavras
+palavras_maior= [0]
+palavra_menor=[0]
+
+
+ #comparando o total de letras na palavras
+
+if len(palavras_maior) > len(palavra_menor):
+  print("a palavra_maior é maior")
+    
+elif len(palavra_menor) < len(palavras_maior):
+    print("a palavra_menor e maior")
+    
+else:
+    print("as duas palavras tem a mesma quantidade de letras")
+        
+                 
