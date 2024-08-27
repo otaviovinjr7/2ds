@@ -1,0 +1,18 @@
+#lista de gastos
+gastos_joao = [300, 500, 200, 800]
+gastos_pedro =[200, 400, 500, 700]
+
+#calculando o total de gastos
+total_joao = sum(gastos_joao)
+total_pedro = sum(gastos_pedro)
+
+#comparando os totais
+
+if total_joao > total_pedro:
+    print("joao gastou mais dinheiro ao longo do mes")        
+
+elif total_pedro > total_joao:
+   print("pedro gastou mais dinheiro ao longo do mes")
+   
+else:
+    print("joao e pedro gastaram a mesma coisa ao longo do mes")
