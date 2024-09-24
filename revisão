@@ -1,0 +1,21 @@
+operadores relacionais:<>=
+menor<
+maior>
+igual=
+x==y (V ou F) esta comparando
+ex:20>10 verdadeiro
+
+operadores logicos:and,or,not
+ex: S or R
+10 not 20
+
+Operadores condicionais:if,else,elif
+Ex:if 9>10:
+if 9<10:
+Else(erro)
+ELif 9>10:
+if 9<10:
+Else:
+(erro)
+
+Laço de repetição:for,while,do while
