@@ -1,0 +1,24 @@
+funcionarios=[[2,1,2],[3,0,1],[1,0,1]]
+
+projetos=[[1,0,1],[2,1,2],[3,0,1]]
+for funcionarios in range(funcionarios.shape[0]):
+    for projetos in range(projetos.shape[1]):
+        if(projetos[projetos]==1).any () and (funcionarios[funcionarios]==1).any():
+            if (projetos[projetos] & funcionarios[funcionarios]) . any():
+                alocacao[funcionarios][projetos] = 1
+                funcionarios[projetos] projetos[funcionarios] ==1,0, funcionarios[projetos]
+                break
+            
+resultado_alocacao= alocar_funcionarios(funcionarios.copy(),projetos.copy())
+
+print("matriz de funcionarios:")
+print(funcionarios)
+
+print("/nMatriz de projetos")
+print(projetos)
+
+
+
+print("\nMatriz de Alocação:")
+
+print(resultado_alocacao)
